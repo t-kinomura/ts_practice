@@ -7,7 +7,7 @@ console.log(answer);
 
 
 
-// ジェネリック
+// ジェネリクス
 
 const addMark = <T>(message: T): string => {
   return ('■' + message);
